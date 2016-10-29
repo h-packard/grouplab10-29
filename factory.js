@@ -1,9 +1,9 @@
 var app = angular.module('myModule')
-app.factory('nameFactory', function() {
+app.factory('madlibFactory', function() {
   var myObj = {};
 
-  var setInput = function(animalName) {
-    myobj.name = animalName;
+  var setInput = function(bradyBunch) {
+    myobj.name = bradyBunch;
   }
   var setOuput = function() {
     return myObj;
