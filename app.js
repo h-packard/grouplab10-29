@@ -6,7 +6,7 @@ app.config(function($routeProvider) {
     templateUrl: 'input.html'
   })
 
-  .when('/output', {
+  .when('/view2', {
     controller: 'outputCtrl',
     templateUrl: 'output.html'
   })

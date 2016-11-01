@@ -1,4 +1,5 @@
 var app = angular.module('myModule');
 app.controller('outputCtrl', function($scope, madlibFactory){
-  $scope.madlib = madlibFactory.setOuput();
+  $scope.bradyBunch = madlibFactory.setOuput();
+  console.log($scope.madlibWord);
 });
